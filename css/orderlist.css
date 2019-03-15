@@ -1,0 +1,57 @@
+/*--------Contact-------*/
+
+body{
+    font-family: 'Mr Dafoe', cursive;
+    color:#c9c1ac;
+    background: url(../img/servingsushi.jpeg)center/cover 
+        fixed no-repeat;
+}
+.height-60{
+    min-height: 60vh;
+}
+
+
+
+
+#order .card{
+    background: rgba(0,0,0,0.01);
+    transition: all 2s ease;
+    
+}
+
+#order .card:hover{
+    background: rgba(0,0,0,0.8);
+    
+    
+}
+
+#order .card-header{
+    color:#d3325f;
+    letter-spacing: 4px;
+    font-size: 25px;
+}
+
+#order .input-group-text{
+    background: #d3325f;
+    border-color: #d3325f;
+    color:#242424;
+}
+#order .card input{
+    color: #606060;
+}
+#order .card input::placeholder{
+    color: #606060;
+}
+
+.contact-btn{
+ color:#d3325f;
+border-color: #d3325f;
+    background: transparent;
+    transition: all 2s ease-in-out;
+}
+.contact-btn:hover{
+color:#d3325f;
+border-color: #c9c1ac;
+background: #c9c1ac;
+   
+}
